@@ -13,7 +13,8 @@ const App = () => {
         <About />
         <hr></hr>
         <Portfolio />
-        <Card text ="LanChi" />
+        <Card text ="LanChi" 
+        movie ="Beauty and the Beast"/>
         <Card text ="Jonah" />
         <Card text = "Shane" />
        
