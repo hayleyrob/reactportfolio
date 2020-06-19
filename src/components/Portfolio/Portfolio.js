@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Portfolio = () => {
-  return ( 
+  return (
+  <>
     <div className="row">
       <div className="col-md-4">
         <div className="card" style= {{ maxWidth:"18rem" }}>
@@ -36,7 +37,7 @@ const Portfolio = () => {
 
       </div>
     </div>
-    <div className="row">
+      <div className="row">
       <div className="col-md-4">
         <div className="card" style={{ maxWidth: "18rem" }}>
           <img src="https://i.imgur.com/saoSkeo.png" className="card-img-top" alt="eSPACE" />
@@ -70,6 +71,9 @@ const Portfolio = () => {
 
       </div>
     </div>
+    
+  </>
+
   )
 }
 export default Portfolio
